@@ -1,0 +1,35 @@
+.backgroud{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+img{
+    height: 100px;
+}
+.back1{
+margin-left: 10px;
+margin-right: 10px;
+height: 50px;
+width: 97%;
+background-color: #457999;
+}
+
+.img1{
+    width: 47.5%;
+}
+.img2{
+    width: 31%;
+}
+@media screen and (max-width:768px){
+    .img1{
+        width: 97%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .img2{
+        width: 97%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

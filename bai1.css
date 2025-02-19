@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backgroud{
+    color: white;
+    text-align: center;
+    padding:10px
+}
+.back1{
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.back2{
+    display: flex;
+    gap: 10px;
+}
+.back2 .item{
+    background-color: green;
+    border-radius: 10px;
+    font-size: large;
+}
+.back2 .item1{
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    height: 400px;
+}
+.back2 .item2{
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+.back3{
+    background-color: blue;
+    border-radius: 10px;
+}
+@media screen and (max-width:768px){
+    .back2{
+    flex-direction: column;
+    };
+}
