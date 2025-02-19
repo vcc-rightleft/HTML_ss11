@@ -1,0 +1,84 @@
+.backgroud{
+    border:3px solid black ;
+}
+.back1{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.back1 img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.back1 .item{
+    background-color: white;
+    height: 2px;
+    width: 70px;    
+}
+.back1 .title3{
+    color: white;
+    display: none;
+}
+.back1 .title2{
+    display: none;
+}
+.back2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    align-items: center;
+}
+.back2 .img1{
+    width: 97%;
+    height: 500px;
+}
+.back2 .back21{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.back2 .img2{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 289px;
+}
+.back2 .back22{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+}
+.back2 .img3{
+    width: 610px ;
+}
+@media screen and (max-width:1200px) {
+    .back1 .title2{
+        display: block
+    }
+    .back21{
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .back22{
+        flex-direction: column;
+    };
+}
+@media screen and (max-width:768px) {
+    .back1 .item{
+        display: none;
+    }
+    .back1 .title3{
+        display: block;
+    }
+    .back22{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
